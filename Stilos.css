@@ -1192,8 +1192,8 @@ ul {
     top: var(--alt-cab);
     left: 0;
     right: 0;
-    bottom: 0;
-    background-color: var(--color-sup);
+    height: calc(100vh - var(--alt-cab));
+    background-color: #ffffff;
     flex-direction: column;
     align-items: center;
     padding: 2rem 1.5rem;
